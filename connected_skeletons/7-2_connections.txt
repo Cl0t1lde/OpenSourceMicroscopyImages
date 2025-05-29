@@ -1,0 +1,689 @@
+Connections made: 114
+
+Endpoint-to-endpoint connections: 12
+Endpoint-to-intersection connections: 102
+
+Connection 1:
+  From: (np.int64(496), np.int64(150))
+  To: (np.int64(481), np.int64(131)) (intersection)
+  Distance: 24.21
+  Branch length: 50
+
+Connection 2:
+  From: (np.int64(1), np.int64(312))
+  To: (np.int64(44), np.int64(345)) (endpoint)
+  Distance: 54.20
+  Branch length: 50
+
+Connection 3:
+  From: (np.int64(498), np.int64(234))
+  To: (np.int64(462), np.int64(226)) (intersection)
+  Distance: 36.88
+  Branch length: 41
+
+Connection 4:
+  From: (np.int64(1), np.int64(207))
+  To: (np.int64(29), np.int64(198)) (endpoint)
+  Distance: 29.41
+  Branch length: 40
+
+Connection 5:
+  From: (np.int64(2), np.int64(259))
+  To: (np.int64(11), np.int64(295)) (intersection)
+  Distance: 37.11
+  Branch length: 37
+
+Connection 6:
+  From: (np.int64(490), np.int64(300))
+  To: (np.int64(457), np.int64(295)) (intersection)
+  Distance: 33.38
+  Branch length: 34
+
+Connection 7:
+  From: (np.int64(442), np.int64(182))
+  To: (np.int64(441), np.int64(213)) (intersection)
+  Distance: 31.02
+  Branch length: 32
+
+Connection 8:
+  From: (np.int64(330), np.int64(397))
+  To: (np.int64(361), np.int64(393)) (intersection)
+  Distance: 31.26
+  Branch length: 32
+
+Connection 9:
+  From: (np.int64(325), np.int64(388))
+  To: (np.int64(295), np.int64(392)) (intersection)
+  Distance: 30.27
+  Branch length: 31
+
+Connection 10:
+  From: (np.int64(472), np.int64(269))
+  To: (np.int64(497), np.int64(279)) (endpoint)
+  Distance: 26.93
+  Branch length: 26
+
+Connection 11:
+  From: (np.int64(293), np.int64(329))
+  To: (np.int64(318), np.int64(327)) (intersection)
+  Distance: 25.08
+  Branch length: 26
+
+Connection 12:
+  From: (np.int64(383), np.int64(398))
+  To: (np.int64(408), np.int64(394)) (intersection)
+  Distance: 25.32
+  Branch length: 26
+
+Connection 13:
+  From: (np.int64(11), np.int64(378))
+  To: (np.int64(13), np.int64(397)) (endpoint)
+  Distance: 19.10
+  Branch length: 23
+
+Connection 14:
+  From: (np.int64(470), np.int64(50))
+  To: (np.int64(473), np.int64(71)) (endpoint)
+  Distance: 21.21
+  Branch length: 22
+
+Connection 15:
+  From: (np.int64(38), np.int64(46))
+  To: (np.int64(39), np.int64(65)) (intersection)
+  Distance: 19.03
+  Branch length: 20
+
+Connection 16:
+  From: (np.int64(428), np.int64(398))
+  To: (np.int64(410), np.int64(394)) (intersection)
+  Distance: 18.44
+  Branch length: 19
+
+Connection 17:
+  From: (np.int64(497), np.int64(397))
+  To: (np.int64(480), np.int64(393)) (intersection)
+  Distance: 17.46
+  Branch length: 18
+
+Connection 18:
+  From: (np.int64(205), np.int64(398))
+  To: (np.int64(191), np.int64(385)) (intersection)
+  Distance: 19.10
+  Branch length: 18
+
+Connection 19:
+  From: (np.int64(93), np.int64(116))
+  To: (np.int64(109), np.int64(116)) (intersection)
+  Distance: 16.00
+  Branch length: 17
+
+Connection 20:
+  From: (np.int64(34), np.int64(398))
+  To: (np.int64(50), np.int64(390)) (intersection)
+  Distance: 17.89
+  Branch length: 17
+
+Connection 21:
+  From: (np.int64(495), np.int64(378))
+  To: (np.int64(481), np.int64(385)) (intersection)
+  Distance: 15.65
+  Branch length: 15
+
+Connection 22:
+  From: (np.int64(115), np.int64(103))
+  To: (np.int64(110), np.int64(115)) (intersection)
+  Distance: 13.00
+  Branch length: 14
+
+Connection 23:
+  From: (np.int64(6), np.int64(249))
+  To: (np.int64(8), np.int64(236)) (intersection)
+  Distance: 13.15
+  Branch length: 14
+
+Connection 24:
+  From: (np.int64(447), np.int64(44))
+  To: (np.int64(445), np.int64(56)) (intersection)
+  Distance: 12.17
+  Branch length: 13
+
+Connection 25:
+  From: (np.int64(336), np.int64(381))
+  To: (np.int64(328), np.int64(373)) (intersection)
+  Distance: 11.31
+  Branch length: 13
+
+Connection 26:
+  From: (np.int64(198), np.int64(348))
+  To: (np.int64(200), np.int64(359)) (intersection)
+  Distance: 11.18
+  Branch length: 12
+
+Connection 27:
+  From: (np.int64(59), np.int64(126))
+  To: (np.int64(49), np.int64(132)) (intersection)
+  Distance: 11.66
+  Branch length: 11
+
+Connection 28:
+  From: (np.int64(141), np.int64(363))
+  To: (np.int64(131), np.int64(366)) (endpoint)
+  Distance: 10.44
+  Branch length: 11
+
+Connection 29:
+  From: (np.int64(450), np.int64(351))
+  To: (np.int64(441), np.int64(358)) (intersection)
+  Distance: 11.40
+  Branch length: 10
+
+Connection 30:
+  From: (np.int64(39), np.int64(129))
+  To: (np.int64(47), np.int64(132)) (intersection)
+  Distance: 8.54
+  Branch length: 9
+
+Connection 31:
+  From: (np.int64(2), np.int64(230))
+  To: (np.int64(8), np.int64(236)) (intersection)
+  Distance: 8.49
+  Branch length: 9
+
+Connection 32:
+  From: (np.int64(273), np.int64(323))
+  To: (np.int64(275), np.int64(331)) (intersection)
+  Distance: 8.25
+  Branch length: 9
+
+Connection 33:
+  From: (np.int64(215), np.int64(385))
+  To: (np.int64(223), np.int64(383)) (intersection)
+  Distance: 8.25
+  Branch length: 9
+
+Connection 34:
+  From: (np.int64(370), np.int64(398))
+  To: (np.int64(362), np.int64(393)) (intersection)
+  Distance: 9.43
+  Branch length: 9
+
+Connection 35:
+  From: (np.int64(442), np.int64(103))
+  To: (np.int64(449), np.int64(99)) (intersection)
+  Distance: 8.06
+  Branch length: 8
+
+Connection 36:
+  From: (np.int64(268), np.int64(342))
+  To: (np.int64(266), np.int64(335)) (intersection)
+  Distance: 7.28
+  Branch length: 8
+
+Connection 37:
+  From: (np.int64(287), np.int64(397))
+  To: (np.int64(294), np.int64(393)) (intersection)
+  Distance: 8.06
+  Branch length: 8
+
+Connection 38:
+  From: (np.int64(257), np.int64(395))
+  To: (np.int64(251), np.int64(392)) (intersection)
+  Distance: 6.71
+  Branch length: 7
+
+Connection 39:
+  From: (np.int64(3), np.int64(70))
+  To: (np.int64(8), np.int64(72)) (intersection)
+  Distance: 5.39
+  Branch length: 6
+
+Connection 40:
+  From: (np.int64(324), np.int64(199))
+  To: (np.int64(329), np.int64(204)) (endpoint)
+  Distance: 7.07
+  Branch length: 6
+
+Connection 41:
+  From: (np.int64(5), np.int64(298))
+  To: (np.int64(10), np.int64(296)) (intersection)
+  Distance: 5.39
+  Branch length: 6
+
+Connection 42:
+  From: (np.int64(131), np.int64(308))
+  To: (np.int64(126), np.int64(311)) (intersection)
+  Distance: 5.83
+  Branch length: 6
+
+Connection 43:
+  From: (np.int64(125), np.int64(391))
+  To: (np.int64(125), np.int64(387)) (intersection)
+  Distance: 4.00
+  Branch length: 5
+
+Connection 44:
+  From: (np.int64(151), np.int64(107))
+  To: (np.int64(148), np.int64(105)) (intersection)
+  Distance: 3.61
+  Branch length: 4
+
+Connection 45:
+  From: (np.int64(6), np.int64(120))
+  To: (np.int64(7), np.int64(117)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 46:
+  From: (np.int64(276), np.int64(271))
+  To: (np.int64(276), np.int64(273)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 47:
+  From: (np.int64(170), np.int64(392))
+  To: (np.int64(171), np.int64(390)) (intersection)
+  Distance: 2.24
+  Branch length: 3
+
+Connection 48:
+  From: (np.int64(481), np.int64(361))
+  To: (np.int64(482), np.int64(361)) (endpoint)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 49:
+  From: (np.int64(2), np.int64(259))
+  To: (np.int64(4), np.int64(268)) (intersection)
+  Distance: 9.22
+  Branch length: 10
+
+Connection 50:
+  From: (np.int64(39), np.int64(129))
+  To: (np.int64(45), np.int64(131)) (intersection)
+  Distance: 6.32
+  Branch length: 7
+
+Connection 51:
+  From: (np.int64(495), np.int64(378))
+  To: (np.int64(489), np.int64(381)) (intersection)
+  Distance: 6.71
+  Branch length: 7
+
+Connection 52:
+  From: (np.int64(324), np.int64(199))
+  To: (np.int64(329), np.int64(204)) (endpoint)
+  Distance: 7.07
+  Branch length: 6
+
+Connection 53:
+  From: (np.int64(131), np.int64(308))
+  To: (np.int64(126), np.int64(311)) (intersection)
+  Distance: 5.83
+  Branch length: 6
+
+Connection 54:
+  From: (np.int64(215), np.int64(385))
+  To: (np.int64(220), np.int64(384)) (intersection)
+  Distance: 5.10
+  Branch length: 6
+
+Connection 55:
+  From: (np.int64(428), np.int64(398))
+  To: (np.int64(423), np.int64(397)) (intersection)
+  Distance: 5.10
+  Branch length: 6
+
+Connection 56:
+  From: (np.int64(125), np.int64(391))
+  To: (np.int64(125), np.int64(387)) (intersection)
+  Distance: 4.00
+  Branch length: 5
+
+Connection 57:
+  From: (np.int64(6), np.int64(120))
+  To: (np.int64(7), np.int64(117)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 58:
+  From: (np.int64(59), np.int64(126))
+  To: (np.int64(56), np.int64(128)) (intersection)
+  Distance: 3.61
+  Branch length: 4
+
+Connection 59:
+  From: (np.int64(5), np.int64(298))
+  To: (np.int64(8), np.int64(297)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 60:
+  From: (np.int64(131), np.int64(366))
+  To: (np.int64(134), np.int64(365)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 61:
+  From: (np.int64(257), np.int64(395))
+  To: (np.int64(254), np.int64(394)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 62:
+  From: (np.int64(473), np.int64(71))
+  To: (np.int64(473), np.int64(69)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 63:
+  From: (np.int64(93), np.int64(116))
+  To: (np.int64(95), np.int64(116)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 64:
+  From: (np.int64(442), np.int64(182))
+  To: (np.int64(442), np.int64(184)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 65:
+  From: (np.int64(276), np.int64(271))
+  To: (np.int64(276), np.int64(273)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 66:
+  From: (np.int64(490), np.int64(300))
+  To: (np.int64(488), np.int64(300)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 67:
+  From: (np.int64(450), np.int64(351))
+  To: (np.int64(448), np.int64(353)) (intersection)
+  Distance: 2.83
+  Branch length: 3
+
+Connection 68:
+  From: (np.int64(170), np.int64(392))
+  To: (np.int64(171), np.int64(390)) (intersection)
+  Distance: 2.24
+  Branch length: 3
+
+Connection 69:
+  From: (np.int64(330), np.int64(397))
+  To: (np.int64(332), np.int64(397)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 70:
+  From: (np.int64(497), np.int64(397))
+  To: (np.int64(495), np.int64(397)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 71:
+  From: (np.int64(383), np.int64(398))
+  To: (np.int64(385), np.int64(398)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 72:
+  From: (np.int64(38), np.int64(46))
+  To: (np.int64(38), np.int64(47)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 73:
+  From: (np.int64(470), np.int64(50))
+  To: (np.int64(470), np.int64(51)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 74:
+  From: (np.int64(3), np.int64(70))
+  To: (np.int64(4), np.int64(70)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 75:
+  From: (np.int64(6), np.int64(249))
+  To: (np.int64(6), np.int64(248)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 76:
+  From: (np.int64(268), np.int64(342))
+  To: (np.int64(268), np.int64(341)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 77:
+  From: (np.int64(198), np.int64(348))
+  To: (np.int64(198), np.int64(349)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 78:
+  From: (np.int64(481), np.int64(361))
+  To: (np.int64(482), np.int64(361)) (endpoint)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 79:
+  From: (np.int64(11), np.int64(378))
+  To: (np.int64(11), np.int64(379)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 80:
+  From: (np.int64(336), np.int64(381))
+  To: (np.int64(335), np.int64(380)) (intersection)
+  Distance: 1.41
+  Branch length: 2
+
+Connection 81:
+  From: (np.int64(34), np.int64(398))
+  To: (np.int64(35), np.int64(398)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 82:
+  From: (np.int64(2), np.int64(259))
+  To: (np.int64(4), np.int64(268)) (intersection)
+  Distance: 9.22
+  Branch length: 10
+
+Connection 83:
+  From: (np.int64(39), np.int64(129))
+  To: (np.int64(45), np.int64(131)) (intersection)
+  Distance: 6.32
+  Branch length: 7
+
+Connection 84:
+  From: (np.int64(495), np.int64(378))
+  To: (np.int64(489), np.int64(381)) (intersection)
+  Distance: 6.71
+  Branch length: 7
+
+Connection 85:
+  From: (np.int64(324), np.int64(199))
+  To: (np.int64(329), np.int64(204)) (endpoint)
+  Distance: 7.07
+  Branch length: 6
+
+Connection 86:
+  From: (np.int64(131), np.int64(308))
+  To: (np.int64(126), np.int64(311)) (intersection)
+  Distance: 5.83
+  Branch length: 6
+
+Connection 87:
+  From: (np.int64(215), np.int64(385))
+  To: (np.int64(220), np.int64(384)) (intersection)
+  Distance: 5.10
+  Branch length: 6
+
+Connection 88:
+  From: (np.int64(428), np.int64(398))
+  To: (np.int64(423), np.int64(397)) (intersection)
+  Distance: 5.10
+  Branch length: 6
+
+Connection 89:
+  From: (np.int64(125), np.int64(391))
+  To: (np.int64(125), np.int64(387)) (intersection)
+  Distance: 4.00
+  Branch length: 5
+
+Connection 90:
+  From: (np.int64(6), np.int64(120))
+  To: (np.int64(7), np.int64(117)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 91:
+  From: (np.int64(59), np.int64(126))
+  To: (np.int64(56), np.int64(128)) (intersection)
+  Distance: 3.61
+  Branch length: 4
+
+Connection 92:
+  From: (np.int64(5), np.int64(298))
+  To: (np.int64(8), np.int64(297)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 93:
+  From: (np.int64(131), np.int64(366))
+  To: (np.int64(134), np.int64(365)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 94:
+  From: (np.int64(257), np.int64(395))
+  To: (np.int64(254), np.int64(394)) (intersection)
+  Distance: 3.16
+  Branch length: 4
+
+Connection 95:
+  From: (np.int64(473), np.int64(71))
+  To: (np.int64(473), np.int64(69)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 96:
+  From: (np.int64(93), np.int64(116))
+  To: (np.int64(95), np.int64(116)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 97:
+  From: (np.int64(442), np.int64(182))
+  To: (np.int64(442), np.int64(184)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 98:
+  From: (np.int64(276), np.int64(271))
+  To: (np.int64(276), np.int64(273)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 99:
+  From: (np.int64(490), np.int64(300))
+  To: (np.int64(488), np.int64(300)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 100:
+  From: (np.int64(450), np.int64(351))
+  To: (np.int64(448), np.int64(353)) (intersection)
+  Distance: 2.83
+  Branch length: 3
+
+Connection 101:
+  From: (np.int64(170), np.int64(392))
+  To: (np.int64(171), np.int64(390)) (intersection)
+  Distance: 2.24
+  Branch length: 3
+
+Connection 102:
+  From: (np.int64(330), np.int64(397))
+  To: (np.int64(332), np.int64(397)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 103:
+  From: (np.int64(497), np.int64(397))
+  To: (np.int64(495), np.int64(397)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 104:
+  From: (np.int64(383), np.int64(398))
+  To: (np.int64(385), np.int64(398)) (intersection)
+  Distance: 2.00
+  Branch length: 3
+
+Connection 105:
+  From: (np.int64(38), np.int64(46))
+  To: (np.int64(38), np.int64(47)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 106:
+  From: (np.int64(470), np.int64(50))
+  To: (np.int64(470), np.int64(51)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 107:
+  From: (np.int64(3), np.int64(70))
+  To: (np.int64(4), np.int64(70)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 108:
+  From: (np.int64(6), np.int64(249))
+  To: (np.int64(6), np.int64(248)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 109:
+  From: (np.int64(268), np.int64(342))
+  To: (np.int64(268), np.int64(341)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 110:
+  From: (np.int64(198), np.int64(348))
+  To: (np.int64(198), np.int64(349)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 111:
+  From: (np.int64(481), np.int64(361))
+  To: (np.int64(482), np.int64(361)) (endpoint)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 112:
+  From: (np.int64(11), np.int64(378))
+  To: (np.int64(11), np.int64(379)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+
+Connection 113:
+  From: (np.int64(336), np.int64(381))
+  To: (np.int64(335), np.int64(380)) (intersection)
+  Distance: 1.41
+  Branch length: 2
+
+Connection 114:
+  From: (np.int64(34), np.int64(398))
+  To: (np.int64(35), np.int64(398)) (intersection)
+  Distance: 1.00
+  Branch length: 2
+

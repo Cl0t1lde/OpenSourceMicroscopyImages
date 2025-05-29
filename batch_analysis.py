@@ -36,8 +36,16 @@ def analyze_image_trio(manual_path, ilastik_path, connected_path, pair_name):
         (manual_array[:, :, 2] < 127)     # Blue should be 0
     ).astype(np.uint8)
     
+     # Decide on the number of dilation iterations based on filename
+    if "6" in os.path.basename(manual_path): #6 is in the filename of the zoomed pictures.
+        dilation_iterations = 5
+    elif "7" in os.path.basename(manual_path): #7 is in the filename of the a bit less zoomed pictures.
+        dilation_iterations = 4
+    else:
+        dilation_iterations = 2
+    
     # Thicken the manual trace by 2 iterations
-    manual_bin_dilated = binary_dilation(manual_bin, iterations=2).astype(np.uint8)
+    manual_bin_dilated = binary_dilation(manual_bin, iterations=dilation_iterations).astype(np.uint8)
     
     # Create binary mask for connected skeleton
     connected_bin = (connected_array > 128).astype(np.uint8)
