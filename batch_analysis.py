@@ -25,11 +25,11 @@ def analyze_image_pair(manual_path, ilastik_path, pair_name):
     print("Blue channel unique values:", np.unique(manual_array[:,:,2]))
     print("Unique values in ilastik segmentation:", np.unique(ilastik_array))
     
-    # Create binary masks
+    # Create binary masks for pure red shades only
     manual_bin = (
-        (manual_array[:, :, 0] > 127) &
-        (manual_array[:, :, 1] == 0) & 
-        (manual_array[:, :, 2] == 0)
+        (manual_array[:, :, 0] > 10) &  # Red channel should be significant
+        (manual_array[:, :, 1] < 127) &   # Green should be 0
+        (manual_array[:, :, 2] < 127)     # Blue should be 0
     ).astype(np.uint8)
     
     # Thicken the manual trace by 2 iterations
