@@ -4,8 +4,8 @@ import matplotlib.pyplot as plt
 
 
 # Load your manual trace and ilastik segmentation map
-manual_img = Image.open('bitmap_2_copy_6.png').convert('RGB')
-ilastik_img = Image.open('image2_ilastik_6_trace.png').convert('L')  # or 'rgb_image.png' if that's your map
+manual_img = Image.open('Manualtrace4.png').convert('RGB')
+ilastik_img = Image.open('Simplesegmentation4-1.png').convert('L')  # or 'rgb_image.png' if that's your map
 
 
 # Convert both to numpy arrays
