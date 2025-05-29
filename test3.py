@@ -6,8 +6,8 @@ from scipy.ndimage import binary_dilation
 
 
 # Load your manual trace and ilastik segmentation map
-manual_img = Image.open('bitmap_2_copy_3.png').convert('RGB')
-ilastik_img = Image.open('image2_ilastik_3_trace.png').convert('L')  # or 'rgb_image.png' if that's your map
+manual_img = Image.open('Manualtrace4.png').convert('RGB')
+ilastik_img = Image.open('simple-segmentation4-1.png').convert('L')  # or 'rgb_image.png' if that's your map
 
 
 # Convert both to numpy arrays
@@ -23,9 +23,9 @@ print("Unique values in ilastik segmentation:", np.unique(ilastik_array))
 # Create binary masks
 
 manual_bin = (
-    (manual_array[:, :, 0] == 255) & 
-    (manual_array[:, :, 1] == 0) & 
-    (manual_array[:, :, 2] == 0)
+    (manual_array[:, :, 0] > 127) & 
+    (manual_array[:, :, 1] > 127) & 
+    (manual_array[:, :, 2] > 127)
 ).astype(np.uint8)
 
 # Thicken the manual trace (binary image) by 2 iterations
