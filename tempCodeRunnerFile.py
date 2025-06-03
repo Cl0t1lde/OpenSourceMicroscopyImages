@@ -1,1 +1,0 @@
-ell_wall_mask = (ilastik_array == 1).astype(np.uint8)

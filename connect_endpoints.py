@@ -438,15 +438,16 @@ def save_connected_results(identifier, connected_skeleton, connections):
             f.write(f"  Distance: {conn['distance']:.2f}\n")
             f.write(f"  Branch length: {conn['from_length']}\n\n")
     
-    print(f"  💾 Connected results saved to '{output_folder}/' folder")
+    print(f"Connected results saved to '{output_folder}/' folder")
 
 def main():
     """Process all skeleton files from the skeletized folder."""
-    skeleton_pattern = "skeletized/*_final_skeleton.png"
+    # Changed pattern to look in subfolders for final_skeleton.png
+    skeleton_pattern = "skeletized/*/final_skeleton.png"
     skeleton_files = glob.glob(skeleton_pattern)
     
     if not skeleton_files:
-        print("No skeleton files found in skeletized/ folder!")
+        print("No skeleton files found in skeletized/*/ folders!")
         print("Make sure to run blob_to_trace.py first to generate skeletons.")
         return
 
@@ -470,16 +471,16 @@ def main():
                 total_final_endpoints += final_endpoints
                 total_connections += len(connections)
                 
-                # Extract identifier from filename
-                basename = os.path.basename(skeleton_file)
-                identifier = basename.replace("_final_skeleton.png", "")
+                # Extract identifier from folder name instead of filename
+                folder_name = os.path.basename(os.path.dirname(skeleton_file))
+                identifier = folder_name  # Uses the folder name as identifier
                 
                 save_connected_results(identifier, connected_skeleton, connections)
-                print(f"✅ Completed processing: {identifier}")
-                print(f"   Reduced endpoints from {initial_endpoints} to {final_endpoints}")
+                print(f"Completed processing: {identifier}")
+                print(f"Reduced endpoints from {initial_endpoints} to {final_endpoints}")
                 
         except Exception as e:
-            print(f"❌ Error processing {skeleton_file}: {e}")
+            print(f"Error processing {skeleton_file}: {e}")
             continue
     
     # Print final statistics

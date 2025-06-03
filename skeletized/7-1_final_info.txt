@@ -1,4 +1,0 @@
-Selected dilation: 5 pixels
-Final endpoints: 43
-Final intersections: 317
-Cells touching: False
