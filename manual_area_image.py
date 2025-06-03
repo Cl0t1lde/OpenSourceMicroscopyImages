@@ -31,7 +31,7 @@ def create_error_visualization_mosaic(manual_path, ilastik_path, connected_path,
     # Create binary masks for predictions
     cell_wall_mask = (ilastik_array == 1).astype(np.uint8)
     connected_bin = (connected_array > 128).astype(np.uint8)
-    connected_bin_dilated = binary_dilation(connected_bin, iterations=2).astype(np.uint8)
+    connected_bin_dilated = binary_dilation(connected_bin, iterations=4).astype(np.uint8)
     
     # Calculate error masks for Connected vs Manual
     tp_mask_connected = (manual_bin_dilated == 1) & (connected_bin_dilated == 1)

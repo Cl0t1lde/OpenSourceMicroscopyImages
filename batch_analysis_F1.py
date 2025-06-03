@@ -75,7 +75,7 @@ def analyze_image_trio(manual_path, ilastik_path, connected_path, pair_name):
     connected_bin = (connected_array > 128).astype(np.uint8)
     
     # Thicken the connected skeleton by 2 iterations to match manual trace thickness
-    connected_bin_dilated = binary_dilation(connected_bin, iterations=2).astype(np.uint8)
+    connected_bin_dilated = binary_dilation(connected_bin, iterations=4).astype(np.uint8)
     
     # Create ilastik label masks
     cell_wall_mask = (ilastik_array == 1).astype(np.uint8)
