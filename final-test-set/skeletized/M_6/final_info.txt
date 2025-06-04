@@ -1,0 +1,11 @@
+Selected dilation: 5 pixels (in scaled image)
+Effective dilation in original scale: 30.00 pixels
+Final endpoints: 203
+Final intersections: 1132
+Cells touching: False
+
+Scaling information:
+Original size: 3000x3650 pixels
+Processed size: 500x608 pixels
+Scale factor: 0.166667
+Target width: 500 pixels

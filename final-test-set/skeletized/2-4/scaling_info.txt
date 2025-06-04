@@ -1,0 +1,6 @@
+Original size: 500x400 pixels
+Scaled size: 500x400 pixels
+Scale factor: 1.000000
+Inverse scale factor: 1.000000
+Target width: 500 pixels
+Resampling method: LANCZOS

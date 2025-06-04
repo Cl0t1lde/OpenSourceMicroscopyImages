@@ -69,7 +69,7 @@ def find_areas_from_skeleton(skeleton_array):
     skeleton_bin = (skeleton_array > 128).astype(np.uint8)
     
     # Dilate the skeleton by 2 pixels to thicken lines and close small gaps
-    skeleton_dilated = binary_dilation(skeleton_bin, iterations=4).astype(np.uint8)
+    skeleton_dilated = binary_dilation(skeleton_bin, iterations=2).astype(np.uint8)
     
     # The skeleton lines are the BOUNDARIES, not the enclosed areas
     # So we need to find the areas ENCLOSED by these white lines
