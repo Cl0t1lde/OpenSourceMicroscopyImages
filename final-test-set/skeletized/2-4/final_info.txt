@@ -1,7 +1,7 @@
-Selected dilation: 5 pixels (in scaled image)
-Effective dilation in original scale: 5.00 pixels
-Final endpoints: 131
-Final intersections: 647
+Selected dilation: 3 pixels (in scaled image)
+Effective dilation in original scale: 3.00 pixels
+Final endpoints: 149
+Final intersections: 1285
 Cells touching: False
 
 Scaling information:
