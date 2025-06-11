@@ -5,13 +5,13 @@ This repository contains the code and analysis used in our study:
 
 We compare manual tracing with **Ilastik's** trace on plant microscopy images to evaluate accuracy, speed, and scalability for cell boundary detection and morphological analysis.
 
-##Contents
+## Contents
 
 - 
 - 
 - 
 
-##Methods
+## Methods
 
 - **Manual Tracing**: Used as the gold standard for evaluating segmentation accuracy  
 - **Ilastik**: Pixel classification based on user-labeled regions  
