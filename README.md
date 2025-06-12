@@ -82,7 +82,7 @@ Lionel Stijns - l.stijns@student.maastrichtuniversity.nl
 This codebase was developed for the analyses in the following study:
 
 Using Machine Learning and Neural Networks to Draft a Blueprint of Plant Tissues
-Aitor Arias Sanchez, Clotilde Papot, Josephine Benoist, Rafael Diederen, Lionel Stijns
+Aitor Arias Sanchez, Clotilde Papot, Josephine Benoist, Rafael Diederen, Lionel Stijns. 
 Supervised by Ruth Grosseholz
-June 11, 2025
+(June 11, 2025)
 
