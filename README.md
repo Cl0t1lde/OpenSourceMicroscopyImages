@@ -68,10 +68,15 @@ Executing the analysis pipeline generates detailed visualizations and quantitati
 ## Contact & Citation
 
 For questions, collaboration, or support, please contact:
+
 Aitor Arias Sánchez - a.ariassanchez@student.maastrichtuniversity.nl
+
 Josephine Benoist - j.benoist@student.maastrichtuniversity.nl
-Rafael Diederen - r.diederen@student.maastrichtuniveristy.nl 
+
+Rafael Diederen - r.diederen@student.maastrichtuniveristy.nl
+
 Clotilde Papot - c.papot@student.maastrichtuniversity.nl
+
 Lionel Stijns - l.stijns@student.maastrichtuniversity.nl
 
 This codebase was developed for the analyses in the following study:
